@@ -1,0 +1,59 @@
+.sidebarChat {
+  display: flex;
+  padding: 20px;
+  padding-right: 0px !important;
+  cursor: pointer;
+  border-bottom: 1px solid  rgb(192, 189, 189,0.4);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: rgb(48, 48, 48);
+  color: #dcf8c6;
+}
+.sidebarChat:hover {
+  background-color: rgb(192, 189, 189);
+}
+.sidebarChat-info > h2 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: lightgreen;
+}
+.sidebarChat-info {
+  margin-left: 15px;
+}
+.sidebarChat.addNewChat {
+  background-color: rgb(0, 0, 0);
+  color: #69e609;
+  padding: 15px;
+  text-align: center;
+  cursor: copy;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.sidebarChat-info > p {
+  color: lightgray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.sidebarChat-icons {
+  display: flex;
+  justify-self: flex-end;
+  text-align: right;
+  
+}
+.sidebarChat-icons > button {
+  color: lightgrey;
+}
+.sidebarChat-icons > button:first-child:hover {
+  color: yellow;
+}
+
+.sidebar-chat-delete > button:first-child {
+  color: lightgrey;
+}
+.sidebar-chat-delete > button:first-child:hover {
+  color: red;
+}
+#alert-dialog-title {
+  background-color: red;
+}

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.455aa038.chunk.css",
+    "main.js": "/static/js/main.ce00538b.chunk.js",
+    "main.js.map": "/static/js/main.ce00538b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.245abe94.js",
+    "runtime-main.js.map": "/static/js/runtime-main.245abe94.js.map",
+    "static/css/2.5f1c2fc1.chunk.css": "/static/css/2.5f1c2fc1.chunk.css",
+    "static/js/2.18e11799.chunk.js": "/static/js/2.18e11799.chunk.js",
+    "static/js/2.18e11799.chunk.js.map": "/static/js/2.18e11799.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.90817a6c0b58ec02fbe774487b6144e7.js": "/precache-manifest.90817a6c0b58ec02fbe774487b6144e7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5f1c2fc1.chunk.css.map": "/static/css/2.5f1c2fc1.chunk.css.map",
+    "static/css/main.455aa038.chunk.css.map": "/static/css/main.455aa038.chunk.css.map",
+    "static/js/2.18e11799.chunk.js.LICENSE.txt": "/static/js/2.18e11799.chunk.js.LICENSE.txt",
+    "static/media/blackClover.png": "/static/media/blackClover.54ebc630.png",
+    "static/media/all.css": "/static/media/fa-solid-900.8e39d5d5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.245abe94.js",
+    "static/css/2.5f1c2fc1.chunk.css",
+    "static/js/2.18e11799.chunk.js",
+    "static/css/main.455aa038.chunk.css",
+    "static/js/main.ce00538b.chunk.js"
+  ]
+}

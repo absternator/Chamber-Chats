@@ -1,0 +1,82 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+  background-color: rgb(48, 48, 48);
+  color: #dcf8c6;
+  border-right: 1px solid black;
+}
+.sidebar-header > .MuiAvatar-root{
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 20px;
+}
+.sidebar-header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+/* target direct child of header right */
+.sidebar-header-right > .MuiSvgIcon-root {
+  margin-right: 2vw;
+  font-size: 24px !important;
+}
+.sidebar-header-right > button {
+  border-radius: 10px;
+  color: #dcf8c6;
+}
+.sidebar-header-right > button:hover {
+  color: red;
+}
+.sidebar-search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(48, 48, 48);
+  height: 39px;
+  padding: 10px;
+  
+}
+.sidebar-search-container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  
+}
+.sidebar-search-container > button {
+  color: lightgray;
+}
+.sidebar-search-container > button:hover{
+  color: lightgreen;
+}
+/* target icon */
+.sidebar-search-container >  .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
+.sidebar-search-container > input {
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+    width: 80%;
+    background-color: black;
+    color: white;
+}
+.sidebar-chats {
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}
+.sidebar-fix {
+  overflow: scroll;
+  flex: 1;
+}
